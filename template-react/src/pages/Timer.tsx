@@ -8,6 +8,9 @@ function Timer() {
     setTimeout(() => {
       setCount(count => count + 1);
     }, 1000);
+    // return () => {
+    //   clearTimeout(count);
+    // };
   });
 
   return (

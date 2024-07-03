@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Timer from '../pages/Timer';
 import Error404 from '../pages/Error404';
 import Counter from '../pages/Counter';
+import Fetch from '../pages/Fetch';
 
 const router = createBrowserRouter([
   {
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
   {
     path: '/counter',
     element: <Counter />,
+  },
+  {
+    path: '/fetch',
+    element: <Fetch></Fetch>,
   },
 ]);
 
